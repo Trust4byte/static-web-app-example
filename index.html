@@ -3,108 +3,62 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Aurora — Fancy Static Site</title>
-  <link rel="icon" href="/assets/logo.svg" />
+  <title>Webdos</title>
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="/">Aurora</a>
-      <nav class="nav">
-        <a href="#features">Features</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-        <button id="themeToggle" class="btn small">🌙</button>
-      </nav>
+  <div class="desktop">
+    <div class="taskbar">
+      <button class="start">☰ Start</button>
+      <div class="taskbar-title">Webdos</div>
+      <div class="clock" id="clock">00:00</div>
     </div>
-  </header>
 
-  <main>
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-content">
-          <h1>Beautiful static sites, deployed to Azure</h1>
-          <p class="lead">A modern, responsive template with subtle animations and light JS to make things feel alive.</p>
-          <div class="actions">
-            <a class="btn primary" href="#features">Explore features</a>
-            <a class="btn ghost" href="#contact">Get in touch</a>
+    <main class="screen">
+      <div class="window" role="region" aria-label="Welcome window">
+        <div class="window-title">Welcome to Webdos</div>
+        <div class="window-body">
+          <div class="left">
+            <ul class="menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <p class="under">This is the newest version of webdos</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Under-construction.gif" alt="Under construction" class="ugc" />
+          </div>
+          <div class="right">
+            <h1 id="type-head">Welcome!</h1>
+            <marquee behavior="scroll" direction="left" class="marq">Welcome to Webdos! New version available</marquee>
+            <div class="info">
+              <p>Webdos features included:</p>
+              <ul>
+                <li>New Button</li>
+                <li>New Text</li>
+                <li>New Fonts</li>
+              </ul>
+            </div>
+
+            <section id="contact" class="contact">
+              <h2>Contact (2025 edition)</h2>
+              <form onsubmit="event.preventDefault(); sendContact();">
+                <div class="form-row"><label>Name: <input id="name" required></label></div>
+                <div class="form-row"><label>Email: <input id="email" type="email" required></label></div>
+                <div class="form-row"><label>Message:<br><textarea id="message" rows="4" required></textarea></label></div>
+                <div class="form-row">
+                  <button class="btn btn-3d" type="submit">Send Message</button>
+                  <span id="formStatus" class="muted"></span>
+                </div>
+              </form>
+            </section>
           </div>
         </div>
-        <div class="hero-art">
-          <svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" class="blob" aria-hidden>
-            <defs>
-              <linearGradient id="g1" x1="0" x2="1">
-                <stop offset="0%" stop-color="#7b61ff" />
-                <stop offset="100%" stop-color="#35e6b6" />
-              </linearGradient>
-              <filter id="f1" x="-20%" y="-20%" width="140%" height="140%">
-                <feGaussianBlur stdDeviation="15" result="b" />
-                <feBlend in="SourceGraphic" in2="b" />
-              </filter>
-            </defs>
-            <g filter="url(#f1)">
-              <path fill="url(#g1)" d="M420 60c70 40 80 120 40 190s-130 120-200 90s-120-140-90-210s150-160 250-70z" opacity="0.95"></path>
-            </g>
-          </svg>
-        </div>
       </div>
-    </section>
 
-    <section id="features" class="features">
-      <div class="container">
-        <h2>Features</h2>
-        <div class="grid">
-          <article class="card reveal">
-            <h3>Fast</h3>
-            <p>Static HTML, CSS and small JS for lightning-fast load times.</p>
-          </article>
-          <article class="card reveal">
-            <h3>Beautiful</h3>
-            <p>Glassmorphism, gradients and smooth transitions create a premium feel.</p>
-          </article>
-          <article class="card reveal">
-            <h3>Deployable</h3>
-            <p>Ready to deploy to Azure Static Web Apps with a GitHub Action workflow.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="gallery" class="gallery">
-      <div class="container">
-        <h2>Gallery</h2>
-        <div class="mosaic">
-          <div class="m-item reveal" style="background-image:linear-gradient(135deg, rgba(255,255,255,0.05),rgba(255,255,255,0.02)), url('https://picsum.photos/id/1015/800/600')"></div>
-          <div class="m-item reveal" style="background-image:linear-gradient(135deg, rgba(255,255,255,0.05),rgba(255,255,255,0.02)), url('https://picsum.photos/id/1035/800/600')"></div>
-          <div class="m-item reveal" style="background-image:linear-gradient(135deg, rgba(255,255,255,0.05),rgba(255,255,255,0.02)), url('https://picsum.photos/id/1003/800/600')"></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact">
-      <div class="container">
-        <h2>Contact</h2>
-        <p>Drop a message and we'll reach back.</p>
-        <form class="contact-form" onsubmit="event.preventDefault(); sendContact();">
-          <input type="text" id="name" placeholder="Your name" required />
-          <input type="email" id="email" placeholder="Email" required />
-          <textarea id="message" placeholder="Message" rows="5" required></textarea>
-          <div class="form-actions">
-            <button class="btn primary" type="submit">Send</button>
-            <span id="formStatus" class="muted"></span>
-          </div>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <span>© <span id="year"></span> Aurora</span>
-      <div class="social muted">Made with ❤️ by Trust4byte — Deploy to Azure</div>
-    </div>
-  </footer>
+      <div class="footer-blurb">© <span id="year"></span> — Webdos.</div>
+    </main>
+  </div>
 
   <script src="/script.js"></script>
 </body>

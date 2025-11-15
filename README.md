@@ -32,21 +32,39 @@ Deploy to Azure Static Web Apps (two options)
 - In your repo, go to Settings → Secrets → Actions and add `AZURE_STATIC_WEB_APPS_API_TOKEN` (portal provides this if you choose `Generate` during resource creation).
 - On push to `main`, the `.github/workflows/azure-static-web-apps.yml` will run and deploy.
 
-Azure CLI (advanced)
+# My Retro Site — 1995 theme (Azure-ready)
 
-You can also create the Static Web App with `az` if you prefer, but it requires a GitHub connection:
+This repository contains a small static site intentionally styled to look like a mid-1990s web / Windows 95 experience.
+
+Files of note:
+
+- `index.html` — main retro page (marquee, under-construction GIF, beveled window)
+- `styles.css` — 1990s-style CSS (tiled background, monospace font, 3D buttons)
+- `script.js` — small retro interactions (typewriter header, taskbar clock, simple contact alert)
+- `staticwebapp.config.json` — routing for Azure Static Web Apps
+- `.github/workflows/azure-static-web-apps.yml` — GitHub Actions workflow for deployment
+
+Preview locally
+
+Open `index.html` with any static server. Example using PowerShell + Python:
 
 ```powershell
-az login
-az staticwebapp create -n <app-name> -g <resource-group> --source https://github.com/<user>/<repo> --location "West US 2" --branch main --app-location "/"
+# from repo root
+python -m http.server 5000; Start-Process 'http://localhost:5000'
 ```
+
+Deploy to Azure Static Web Apps
+
+1) Create an Azure Static Web App in the Azure Portal and connect your GitHub repository. The portal can generate and add the workflow for you.
+
+2) Push this repo to GitHub and add the secret `AZURE_STATIC_WEB_APPS_API_TOKEN` (from the Azure portal) to your repository's Settings → Secrets → Actions. The included workflow runs on pushes to `main`.
 
 Customize
 
-- Swap images in the gallery by replacing the sample URLs in `index.html` or adding files under `/assets`.
-- Edit color variables in `styles.css`.
+- Replace the under-construction GIF or other images in `index.html`.
+- Tweak colors and layout in `styles.css`.
 
 Next steps I can help with
 
-- Commit and push the files and create the GitHub repo.
-- Customize branding, add real content or pages.
+- Commit and push the files to a new GitHub repo and create the Static Web App in Azure for you.
+- Add more retro pages or convert the contact form to a real backend function.

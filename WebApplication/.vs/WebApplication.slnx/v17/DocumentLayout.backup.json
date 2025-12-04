@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\herbe\\Documents\\school\\5_Klasse\\cloudComputing\\static-web-app-example\\WebApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99DBF7CE-B9FB-CB2B-0751-B54AFCEA0E32}|WebApplication.Api\\WebApplication.Api.csproj|c:\\users\\herbe\\documents\\school\\5_klasse\\cloudcomputing\\static-web-app-example\\webapplication\\webapplication.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DBF7CE-B9FB-CB2B-0751-B54AFCEA0E32}|WebApplication.Api\\WebApplication.Api.csproj|solutionrelative:webapplication.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8741FE99-E123-4436-AE1A-11FAC9CA0521}|MyWebApplication.Db\\MyWebApplication.Db.csproj|c:\\users\\herbe\\documents\\school\\5_klasse\\cloudcomputing\\static-web-app-example\\webapplication\\mywebapplication.db\\weatherdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8741FE99-E123-4436-AE1A-11FAC9CA0521}|MyWebApplication.Db\\MyWebApplication.Db.csproj|solutionrelative:mywebapplication.db\\weatherdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DBF7CE-B9FB-CB2B-0751-B54AFCEA0E32}|WebApplication.Api\\WebApplication.Api.csproj|c:\\users\\herbe\\documents\\school\\5_klasse\\cloudcomputing\\static-web-app-example\\webapplication\\webapplication.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DBF7CE-B9FB-CB2B-0751-B54AFCEA0E32}|WebApplication.Api\\WebApplication.Api.csproj|solutionrelative:webapplication.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\herbe\\Documents\\school\\5_Klasse\\cloudComputing\\static-web-app-example\\WebApplication\\WebApplication.Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApplication.Api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\herbe\\Documents\\school\\5_Klasse\\cloudComputing\\static-web-app-example\\WebApplication\\WebApplication.Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApplication.Api\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T17:15:40.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherDatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\herbe\\Documents\\school\\5_Klasse\\cloudComputing\\static-web-app-example\\WebApplication\\MyWebApplication.Db\\WeatherDatabaseContext.cs",
+              "RelativeDocumentMoniker": "MyWebApplication.Db\\WeatherDatabaseContext.cs",
+              "ToolTip": "C:\\Users\\herbe\\Documents\\school\\5_Klasse\\cloudComputing\\static-web-app-example\\WebApplication\\MyWebApplication.Db\\WeatherDatabaseContext.cs",
+              "RelativeToolTip": "MyWebApplication.Db\\WeatherDatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T16:45:51.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\herbe\\Documents\\school\\5_Klasse\\cloudComputing\\static-web-app-example\\WebApplication\\WebApplication.Api\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebApplication.Api\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\herbe\\Documents\\school\\5_Klasse\\cloudComputing\\static-web-app-example\\WebApplication\\WebApplication.Api\\WeatherForecast.cs",
+              "RelativeToolTip": "WebApplication.Api\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T16:45:44.137Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

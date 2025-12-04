@@ -1,0 +1,15 @@
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\bin\Debug\net8.0\MyWebApplication.Db.deps.json
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\bin\Debug\net8.0\MyWebApplication.Db.runtimeconfig.json
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\bin\Debug\net8.0\MyWebApplication.Db.dll
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\bin\Debug\net8.0\MyWebApplication.Db.pdb
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\obj\Debug\net8.0\MyWebApplication.Db.csproj.AssemblyReference.cache
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\obj\Debug\net8.0\MyWebApplication.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\obj\Debug\net8.0\MyWebApplication.Db.AssemblyInfoInputs.cache
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\obj\Debug\net8.0\MyWebApplication.Db.AssemblyInfo.cs
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\obj\Debug\net8.0\MyWebApplication.Db.csproj.CoreCompileInputs.cache
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\obj\Debug\net8.0\MyWebApplication.Db.sourcelink.json
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\obj\Debug\net8.0\MyWebApplication.Db.dll
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\obj\Debug\net8.0\refint\MyWebApplication.Db.dll
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\obj\Debug\net8.0\MyWebApplication.Db.pdb
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\obj\Debug\net8.0\MyWebApplication.Db.genruntimeconfig.cache
+C:\Users\herbe\Documents\school\5_Klasse\cloudComputing\static-web-app-example\WebApplication\MyWebApplication.Db\obj\Debug\net8.0\ref\MyWebApplication.Db.dll
